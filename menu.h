@@ -71,8 +71,9 @@ enum {
 /* Opciones Sub-Menu -> Eliminar Aldeano */
 enum {
     ELIMINAR_ALDEANO_NOMBRE = 1,
-    ELIMINAR_ALDEANO_SALUD,
-    ELIMINAR_ALDEANO_EDAD
+    ELIMINAR_ALDEANO_EDAD,
+    ELIMINAR_ALDEANO_SALUD
+    
 };
 
 /* Opciones Sub-Menu -> Clasificar Aldeano */
