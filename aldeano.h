@@ -69,10 +69,6 @@ public:
         return nombre == a.nombre;
     }
 
-    bool operator<(const Aldeano& a) { // para metodo Ordenar()
-        return 2;
-    }
-
     bool operator<(const Aldeano& a) const { // para metodo Ordenar()
         return nombre < a.nombre;
     }

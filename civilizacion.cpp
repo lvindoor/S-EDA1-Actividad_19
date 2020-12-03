@@ -49,7 +49,7 @@ void Civilizacion::ordenarEdad() {
 }
 void Civilizacion::ordenarSalud() {
     /* Ordenar = funcion lambda + atributo a ordenar descendente */
-    aldeanos.sort([](const Aldeano &a1, const Aldeano &a2){return a1.getEdad() > a2.getEdad();});
+    aldeanos.sort([](const Aldeano &a1, const Aldeano &a2){return a1.getSalud() > a2.getSalud();});
 }
 
 /* Buscar */

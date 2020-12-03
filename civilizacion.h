@@ -98,7 +98,7 @@ public:
     }
 
     bool operator<(const Civilizacion& c) { // para metodo Ordenar()
-        return nombre < c.nombre;;
+        return nombre < c.nombre;
     }
 
     bool operator<(const Civilizacion& c) const { // para metodo Ordenar()

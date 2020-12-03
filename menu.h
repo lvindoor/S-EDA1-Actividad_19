@@ -79,8 +79,8 @@ enum {
 /* Opciones Sub-Menu -> Clasificar Aldeano */
 enum {
     CLASIFICAR_ALDEANO_NOMBRE = 1,
-    CLASIFICAR_ALDEANO_SALUD,
-    CLASIFICAR_ALDEANO_EDAD
+    CLASIFICAR_ALDEANO_EDAD,
+    CLASIFICAR_ALDEANO_SALUD
 };
 
 /* Opciones Sub-Menu -> Modificar */
